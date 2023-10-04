@@ -1,0 +1,143 @@
+[
+  {
+    "legend": "Your contact information",
+    "columns": 3,
+    "fields": [
+      {
+        "type": "text",
+        "name": "primer nombre",
+        "placeholder": "primer nombre",
+        "autoComplete": "given-name",
+        "required": true
+      },
+      {
+        "type": "text",
+        "name": "apellido",
+        "placeholder": "apellido",
+        "autoComplete": "family-name",
+        "required": true
+      },
+      {
+        "type": "text",
+        "name": "correo electronico",
+        "placeholder": "correo electronico",
+        "autoComplete": "email",
+        "inputType": "email",
+        "required": true
+      },
+      {
+        "type": "text",
+        "name": "cnombre de la compañia",
+        "placeholder": "nombre de la compañia",
+        "autoComplete": "company"
+      },
+      {
+        "type": "text",
+        "name": "numero de telefono",
+        "placeholder": "numero de telefono",
+        "autoComplete": "phone"
+      },
+      {
+        "type": "select",
+        "name": "pais",
+        "autoComplete": "pais",
+        "defaultValue": "Select Country",
+        "options": [
+          {
+            "label": "Select Country",
+            "value": "",
+            "disabled": true
+          },
+          {
+            "label": "estados unidos",
+            "value": "estados unidos"
+          },
+          {
+            "label": "Canada",
+            "value": "Canada"
+          },
+          {
+            "label": "Germania",
+            "value": "Germania"
+          },
+          {
+            "label": "Francia",
+            "value": "Francia"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "legend": "que servicio necesitas para tu proyecto",
+    "columns": 3,
+    "fields": [
+      {
+        "type": "checkbox",
+        "name": "project-type[Website Development]",
+        "label": "desarrollo de paginas"
+      },
+      {
+        "type": "checkbox",
+        "name": "project-type[App Development]",
+        "label": "desarrollo de aplicacions"
+      },
+      {
+        "type": "checkbox",
+        "name": "project-type[Design System]",
+        "label": "configuracion de sistemas"
+      },
+      {
+        "type": "checkbox",
+        "name": "project-type[Website Migration]",
+        "label": "migracions de webs"
+      },
+      {
+        "type": "checkbox",
+        "name": "project-type[E-commerce Site]",
+        "label": "sitio de e-comerse"
+      },
+      {
+        "type": "checkbox",
+        "name": "project-type[Performance Evaluation]",
+        "label": "Pevaluaciones de desempeño"
+      }
+    ]
+  },
+  {
+    "legend": "cuanto es el presupuesto previsto?",
+    "columns": 3,
+    "fields": [
+      {
+        "type": "radio",
+        "name": "budget",
+        "value": "menos que $2,000",
+        "label": "menos que $2,000"
+      },
+      {
+        "type": "radio",
+        "name": "budget",
+        "value": "$2,000 - $10,000",
+        "label": "$2,000 - $10,000"
+      },
+      {
+        "type": "radio",
+        "name": "budget",
+        "value": "Mas que$10,000",
+        "label": "mas que $10,000"
+      }
+    ]
+  },
+  {
+    "legend": "hablame sobre tu proyecto",
+    "columns": 1,
+    "fields": [
+      {
+        "type": "textarea",
+        "name": "message",
+        "placeholder": "descripcion del proyecto",
+        "rows": 3
+      }
+    ]
+  }
+]
